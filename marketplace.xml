@@ -7877,5 +7877,45 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <support_organization>Sanmargar Team sp. z o. o.</support_organization>
     <support_url>http://sanmargar.pl</support_url>
   </market_entry>
+
+  <market_entry>
+    <id>spoon-gremlin</id>
+    <type>SpoonPlugin</type>
+    <name>Lineage Console</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin (for PDI 6.0+) adds a Gremlin (gremlindocs.com) console to a transformation canvas in Spoon. Right-click anywhere in a transformation canvas
+    and choose "Lineage Console" to bring up a workspace including a graph of the data lineage for the transformation, a tabular view of the lineage properties, and a full
+    Gremlin console that also has access to the Pentaho APIs. This can be used to query a transformation for such things as longest path, the original name of a field, 
+    which fields/steps contribute to the values in an output field, etc.
+    </description>
+    <author>Matt Burgess</author>
+    <forum_url>http://forums.pentaho.com/forumdisplay.php?269-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by a community of volunteers</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/mattyb149/spoon-gremlin/wiki</support_url>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0</version>
+        <name>1.0</name>
+        <package_url>https://pentaho.box.com/shared/static/trc0zchygt70iw3n8181o59be7dnhhtf.kar</package_url>
+        <source_url>https://github.com/mattyb149/spoon-gremlin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
   
 </market>
